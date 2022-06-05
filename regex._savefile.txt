@@ -1,0 +1,55 @@
+import re
+
+text='''
+@startsalt
+{
+  Just plain text
+  [This is my button]
+  ()  Unchecked radio
+  (X) Checked radio
+  []  Unchecked box
+  [X] Checked box
+  "Enter text here   "
+  ^This is a droplist^
+  +
+   This is a long
+   text in a textarea
+}
+@endsalt
+'''
+
+# Mencari button, capture desc.-nya
+button_regex = '\[[X]\]\s{1}(\w.{1,})'
+
+# Mencari unchecked radio, capture desc.-nya
+unchecked_radio_regex = '\(\)\s{1,}(\w.{1,})'
+
+# Mencari unchecked box, capture desc.-nya
+unchecked_box_regex =  '\[\]\s{1,}(\w.{1,})'
+
+# Mencari checked box, capture desc.-nya
+checked_box_regex = '\[[X]\]\s{1}(\w.{1,})' 
+
+# Mencari form, capture desc.-nya
+form_regex = '\"(\w.{1,})\"' 
+
+# Mencari droplist, capture desc.-nya
+droplist_regex = '\^(\w.{1,})\^' 
+
+button_find = re.findall(button_regex, text)
+button_find
+
+unchecked_radio_find = re.findall(unchecked_radio_regex, text)
+unchecked_radio_find
+
+unchecked_box_find = re.findall(unchecked_box_regex, text)
+unchecked_box_find
+
+checked_box_find = re.findall(checked_box_regex, text)
+checked_box_find
+
+form_find = re.findall(form_regex, text)
+form_find
+
+droplist_find = re.findall(droplist_regex, text)
+droplist_find
