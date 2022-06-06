@@ -1,5 +1,5 @@
 # GUILofi-to-Hifi
-Generating GUI Low fidelity (Wireframe) from SALT (Plant UML) to High fidelity using 2 template HTML CSS 
+Generating GUI Low fidelity (Wireframe) from SALT (Plant UML) to High fidelity HTML 
 
 
 # Google Docs
