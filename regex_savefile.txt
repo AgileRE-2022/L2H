@@ -19,7 +19,7 @@ text='''
 '''
 
 # Mencari button, capture desc.-nya
-button_regex = '\[[X]\]\s{1}(\w.{1,})'
+button_regex = '\[(\w.{1,})\]'
 
 # Mencari unchecked radio, capture desc.-nya
 unchecked_radio_regex = '\(\)\s{1,}(\w.{1,})'
