@@ -1,11 +1,24 @@
+# Credit to Ajyan Brava for initial code
+
 import re
 
-text='''
+text = """
+Just plain text
+[This is my button]
+()  Unchecked radio
+(X) Checked radio
+[]  Unchecked box
+[X] Checked box
+"Enter text here   "
+^This is a droplist^
+"""
+
+text2 = """
 @startsalt
 {
   Just plain text
   [This is my button]
-  ()  Unchecked radio
+  ()  Unchecked Radio
   (X) Checked radio
   []  Unchecked box
   [X] Checked box
@@ -16,40 +29,49 @@ text='''
    text in a textarea
 }
 @endsalt
-'''
+"""
 
-# Mencari button, capture desc.-nya
-button_regex = '\[(\w.{1,})\]'
+lines = text2.splitlines()
 
-# Mencari unchecked radio, capture desc.-nya
-unchecked_radio_regex = '\(\)\s{1,}(\w.{1,})'
+print(lines)
 
-# Mencari unchecked box, capture desc.-nya
-unchecked_box_regex =  '\[\]\s{1,}(\w.{1,})'
-
-# Mencari checked box, capture desc.-nya
-checked_box_regex = '\[[X]\]\s{1}(\w.{1,})' 
-
-# Mencari form, capture desc.-nya
-form_regex = '\"(\w.{1,})\"' 
-
-# Mencari droplist, capture desc.-nya
-droplist_regex = '\^(\w.{1,})\^' 
-
-button_find = re.findall(button_regex, text)
-button_find
-
-unchecked_radio_find = re.findall(unchecked_radio_regex, text)
-unchecked_radio_find
-
-unchecked_box_find = re.findall(unchecked_box_regex, text)
-unchecked_box_find
-
-checked_box_find = re.findall(checked_box_regex, text)
-checked_box_find
-
-form_find = re.findall(form_regex, text)
-form_find
-
-droplist_find = re.findall(droplist_regex, text)
-droplist_find
+for line in lines:
+    line = line.strip()
+    words = []
+    words.append(line)
+    for word in words:
+        #print(word)
+        if re.search("\[(\w.{1,})\]",word): # Searching for Button
+            print("Button found")
+            button_text = re.findall("\[(\w.{1,})\]",word) # Capture isi dari Button
+            print(button_text,"\n")
+            break
+        if re.search("\(\)\s{1,}(\w.{1,})",word): # Searching for Unchecked Radio
+            print("Unchecked Radio Button found")
+            uc_radio_text = re.findall("\(\)\s{1,}(\w.{1,})",word) # Capture isi dari Unchecked Radio Button
+            print(uc_radio_text,"\n")
+            break
+        if re.search("\([X]\)",word): #Searching for Checked Radio
+            print("Checked Radio Button found")
+            c_radio_text = re.findall("\([X]\)\s{1}(\w.{1,})",word) # Capture isi dari Checked Radio Button
+            print(c_radio_text,"\n")
+        if re.search("\[\]\s{1,}(\w.{1,})",word): # Searching for Unchecked Box
+            print("Unchecked Box found")
+            uc_box_text = re.findall("\[\]\s{1,}(\w.{1,})",word) # Capture isi dari Unchecked Box Button
+            print(uc_box_text,"\n")
+            break
+        if re.search("\[[X]\]\s{1}(\w.{1,})",word): # Searching for Checked Box
+            print("Checked Box found")
+            c_box_text = re.findall("\[[X]\]\s{1}(\w.{1,})",word) # Capture isi dari Checked Box Button
+            print(c_box_text,"\n")
+            break
+        if re.search("\"(\w.{1,})\"",word): # Searching for Form Input
+            print("Input Form found")
+            form_text = re.findall("\"(\w.{1,})\"",word) # Capture isi dari Form Input
+            print(form_text,"\n")
+            break
+        if re.search("\^(\w.{1,})\^",word): # Searching for Droplist
+            print("Droplist found")
+            droplist_text = re.findall("\^(\w.{1,})\^",word) # Capture isi dari Droplist
+            print(droplist_text,"\n")
+            break
