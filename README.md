@@ -9,7 +9,7 @@ The user can input the SALT Plant UML code (without login), then the user can ge
 3. Django
 4. Python
 5. Javascript
-6. Tailwind
+6. Tailwind CSS
 7. SALT PLant UML
 
 ## Requirements
