@@ -4,6 +4,14 @@ The L2H (GUI Low fidelity to high fidelity) application is a web-based applicati
 The user can input the SALT Plant UML code (without login), then the user can generate the SALT Plant UML code into HTML code by clicking the generate button, then the user can see a preview of the results generated into a GUI high fidelity. (This L2H Application Project is carried out by group 2 class I1).
 
 ## Builder System
+1. HTML 
+2. CSS
+3. Django
+4. Python
+5. Javascript
+6. Tailwind
+7. Bootstrap
+8. SALT PLant UML
 
 ## Installation Guide
 
