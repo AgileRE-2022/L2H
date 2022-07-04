@@ -37,12 +37,26 @@ Python's requirements (included in the requirements.txt file)
 ## How it Works
 
 ## Input
+SALT PlantUML's Basic Widgets, consisting of :
+1. Button;
+2. Unchecked Radio Button;
+3. Checked Radio Button;
+4. Unchecked Checkbox;
+5. Checked Checkbox;
+6. User Text;
+7. Droplist.
 
 ## Output
+L2H automatically converts SALT PlantUML's code into a working HTML + Tailwind CSS Template
 
 ## How to Use
+1. Run the server
+2. Click "Try Converting" on the navigation bar or the "Try Now" button on the index page.
+3. Insert your SALT PlantUML's code into the text box, and then click convert.
+4. Click the "Convert" button.
 
 ## Limitations
+As of now, L2H can only converts SALT PlantUML's basic widgets. 
 
 ## Our Works
 
