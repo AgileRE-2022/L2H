@@ -13,7 +13,27 @@ The user can input the SALT Plant UML code (without login), then the user can ge
 7. Bootstrap
 8. SALT PLant UML
 
+## Requirements
+Node JavaScript
+Node Packet Manager
+Python 3
+Python Virtual Environment
+Python's requirements (included in the requirements.txt file)
+
 ## Installation Guide
+1. Clone the repository
+2. Open the main directory in shell
+3. Run Python's virtual environemnt
+```bash
+  pyenv virtualenv [python3-version] [project-name]-venv
+  pyenv activate [project-name]-venv
+  pip3 install -r requirements.txt
+```
+3. Run the program through Live Server
+```bash
+  python manage.py migrate
+  python manage.py runserver
+```
 
 ## How it Works
 
@@ -41,5 +61,12 @@ Burn Down Chart dan Progress -->
 ## Other information
 ### Project Member
 Members of the L2H application project consist of 7 people, including:
+1. Ajyan Brava Bietrosula
+2. Daffa Kenny Nabil Fayyaadh Priadi
+3. Gita Safitri
+4. Intalitha Fulka Hajar Amethys
+5. Muhamad Erza Ranandha
+6. Muhamad Syafiq Herdiansa
+7. Muhammad Akhdan Fauzan  
 
 ### Contact
