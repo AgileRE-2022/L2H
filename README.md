@@ -10,8 +10,7 @@ The user can input the SALT Plant UML code (without login), then the user can ge
 4. Python
 5. Javascript
 6. Tailwind
-7. Bootstrap
-8. SALT PLant UML
+7. SALT PLant UML
 
 ## Requirements
 Node JavaScript
