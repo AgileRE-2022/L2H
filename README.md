@@ -104,7 +104,7 @@ Members of the L2H application project consist of 7 people, including:
 ### Contact
 Email :
 1.
-2.
+2. daffa.kenny.nabil-2019@fst.unair.ac.id
 3.
 4. intalitha.fulka.hajar-2019@fst.unair.ac.id
 5.
