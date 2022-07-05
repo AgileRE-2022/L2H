@@ -19,6 +19,8 @@ Python 3
 Python Virtual Environment
 Python's requirements (included in the requirements.txt file)
 
+## Live Demo
+
 ## Installation Guide
 1. Clone the repository
 2. Open the main directory in shell
@@ -46,8 +48,13 @@ SALT PlantUML's Basic Widgets, consisting of :
 6. User Text;
 7. Droplist.
 
+![image](https://user-images.githubusercontent.com/95199454/177311441-6b40f756-67ef-471d-ba21-7aa1c98cfe19.png)
+
 ## Output
 L2H automatically converts SALT PlantUML's code into a working HTML + Tailwind CSS Template
+![image](https://user-images.githubusercontent.com/95199454/177312119-f29b6141-6ff3-4bd4-a45b-5799ba00c33d.png)
+![image](https://user-images.githubusercontent.com/95199454/177312173-20c42c04-3ca7-4579-a643-29c5c3b3a24a.png)
+![image](https://user-images.githubusercontent.com/95199454/177312204-a82ffe2c-0a9a-402e-a82e-220603d9192e.png)
 
 ## How to Use
 1. Run the server
