@@ -9,7 +9,7 @@ The user can input the SALT Plant UML code (without login), then the user can ge
 3. Django
 4. Python
 5. Javascript
-6. Tailwind CSS
+6. Tailwind CSS with JIT mode enabled (Tailwind CSS which generates templates on user request instead of generating everything in advance at initial build time)
 7. SALT PLant UML
 
 ## Requirements
