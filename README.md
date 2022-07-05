@@ -57,10 +57,21 @@ L2H automatically converts SALT PlantUML's code into a working HTML + Tailwind C
 ![image](https://user-images.githubusercontent.com/95199454/177312204-a82ffe2c-0a9a-402e-a82e-220603d9192e.png)
 
 ## How to Use
-1. Run the server
+1. Run the server 
+![image](https://user-images.githubusercontent.com/95199454/177312736-b416b3ba-c43e-4beb-b5a8-9315852a8cc0.png)
+
 2. Click "Try Converting" on the navigation bar or the "Try Now" button on the index page.
-3. Insert your SALT PlantUML's code into the text box, and then click convert.
-4. Click the "Convert" button.
+![try](https://user-images.githubusercontent.com/95199454/177313239-f1184efa-84f6-4737-b449-914608394fb0.png)
+
+4. Insert your SALT PlantUML's code into the text box, and then click convert.
+![image](https://user-images.githubusercontent.com/95199454/177313338-1129079c-8653-4693-a759-3fabb327dd8f.png)
+
+6. Click the "Convert" button.
+![image](https://user-images.githubusercontent.com/95199454/177313615-c4a84743-5210-4984-a48f-af66e59fc9b2.png)
+
+7. Preview template 1 or 2, user can also changes the style before previewing the template
+![image](https://user-images.githubusercontent.com/95199454/177313679-4e5442ad-fa7d-433f-8082-7b55c8d2851f.png)
+
 
 ## Limitations
 As of now, L2H can only converts SALT PlantUML's basic widgets. 
@@ -84,9 +95,17 @@ Members of the L2H application project consist of 7 people, including:
 1. Ajyan Brava Bietrosula
 2. Daffa Kenny Nabil Fayyaadh Priadi
 3. Gita Safitri
-4. Intalitha Fulka Hajar Amethys
+4. Intalitha Fulka Hajar Amethys (081911633074)
 5. Muhamad Erza Ranandha
 6. Muhamad Syafiq Herdiansa
 7. Muhammad Akhdan Fauzan  
 
 ### Contact
+Email :
+1.
+2.
+3.
+4. intalitha.fulka.hajar-2019@fst.unair.ac.id
+5.
+6.
+7.
