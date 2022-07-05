@@ -100,13 +100,13 @@ Burn Down Chart dan Progress -->
 ## Other information
 ### Project Member
 Members of the L2H application project consist of 7 people, including:
-1. Ajyan Brava Bietrosula
-2. Daffa Kenny Nabil Fayyaadh Priadi
-3. Gita Safitri
-4. Intalitha Fulka Hajar Amethys (081911633074)
-5. Muhamad Erza Ranandha
-6. Muhamad Syafiq Herdiansa
-7. Muhammad Akhdan Fauzan  
+1. Ajyan Brava Bietrosula             (081911633073)
+2. Daffa Kenny Nabil Fayyaadh Priadi  (081911633040)
+3. Gita Safitri                       (081911633032)
+4. Intalitha Fulka Hajar Amethys      (081911633074)
+5. Muhamad Erza Ranandha              (081911633069)
+6. Muhamad Syafiq Herdiansa           (081911633036)
+7. Muhammad Akhdan Fauzan             (081911633043)
 ### Contact
 Email :
 1. ajyan.brava.bietrosula-2019@fst.unair.ac.id
