@@ -20,7 +20,7 @@ Python Virtual Environment
 Python's requirements (included in the requirements.txt file)
 
 ## Live Demo
-You can use this application (demo) by accessing our [website]([url](http://salt2html.herokuapp.com/))
+You can use this application (demo) by accessing our [website](http://salt2html.herokuapp.com/)
 
 ## Installation Guide
 1. Clone the repository
