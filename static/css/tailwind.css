@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-salt-code > div > div > textarea {
+  @apply rounded-xl bg-gray p-4 max-w-[1024px] w-full
+}
+
+.code-area {
+  @apply rounded-xl max-h-[308px] bg-gray p-4
+}
+
+.code-area > #html-code-theme1,
+.code-area > #html-code-theme2 {
+  @apply w-full h-[200px] max-h-[calc(100%-16px)] mt-4 bg-gray
+}
