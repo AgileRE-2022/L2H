@@ -11,29 +11,26 @@ The user can input the SALT Plant UML code (without login), then the user can ge
 6. Tailwind CSS with JIT mode enabled (Tailwind CSS which generates templates on user request instead of generating everything in advance at initial build time)
 7. SALT PLant UML
 ## Requirements
-Node JavaScript
-Node Packet Manager
-Python 3
-Python Virtual Environment
-Python's requirements (included in the requirements.txt file)
+1. Node JavaScript
+2. Node Packet Manager
+3. Python 3
+4. Python Virtual Environment
+5. Python's requirements (included in the requirements.txt file)
 ## Live Demo
 ## Installation Guide
 1. Clone the repository
 2. Open the main directory in shell
 3. Run Python's virtual environemnt
 bash
-  pyenv virtualenv [python3-version] [project-name]-venv
-  pyenv activate [project-name]-venv
-  pip3 install -r requirements.txt
+  `pyenv virtualenv [python3-version] [project-name]-venv`
+  `pyenv activate [project-name]-venv`
+  `pip3 install -r requirements.txt`
 3. Run the program through Live Server
 bash
-  python manage.py migrate
-  python manage.py runserver
-# salt-to-html
+  `python manage.py migrate`
+  `python manage.py runserver`
 
-Salt PlantUML to HTML Converter Using Django Python
-
-## getting started
+## Getting Started
 
 - install node
 - case node version **v14.19.1**
@@ -43,8 +40,8 @@ Salt PlantUML to HTML Converter Using Django Python
 - install python3
 - case python3 version is **3.9.12**
 - install pyenv
-- install python [*python3-version*]
-- install pyenv-virtualenv
+- install python `[*python3-version*]`
+- install `pyenv-virtualenv`
 - run `pyenv virtualenv [python3-version] [project-name]-venv`
 - run `pyenv activate [project-name]-venv`
 - run `pip3 install -r requirements.txt`
@@ -157,11 +154,10 @@ Members of the L2H application project consist of 7 people, including:
 7. Muhammad Akhdan Fauzan  
 ### Contact
 Email :
-1.
-2.
+1. ajyan.brava.bietrosula-2019@fst.unair.ac.id
 2. daffa.kenny.nabil-2019@fst.unair.ac.id
-3.
+3. gita.safitri-2019@fst.unair.ac.id
 4. intalitha.fulka.hajar-2019@fst.unair.ac.id
-5.
-6.
-7.
+5. muhamad.erza.ranandha-2019@fst.unair.ac.id
+6. muhamad.syafiq.herdiansa-2019@fst.unair.ac.id
+7. muhammad.akhdan.fauzan-2019@fst.unair.ac.id
