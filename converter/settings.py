@@ -46,8 +46,8 @@ INSTALLED_APPS = [
     'tailwind',
     'crispy_forms',
     'crispy_tailwind',
-    'converter',
     'salttohtml',
+    'converter',
 ]
 
 TAILWIND_APP_NAME = 'theme'
