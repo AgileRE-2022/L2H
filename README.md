@@ -23,7 +23,7 @@ Based on JIT mode enabled, the user can create a GUI such as changing the color 
 5. Python's requirements (included in the requirements.txt file)
 
 ## Live Demo
-You can use this application (demo) by accessing our [website](https://lowfi2hifi.herokuapp.com/)
+You can use this application (demo) by accessing our [website](http://salt2html.herokuapp.com/)
 
 ## Installation Guide
 1. Clone the repository
