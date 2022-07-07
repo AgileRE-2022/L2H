@@ -17,6 +17,9 @@ The user can input the SALT Plant UML code (without login), then the user can ge
 4. Python Virtual Environment
 5. Python's requirements (included in the requirements.txt file)
 ## Live Demo
+
+https://lowfi2hifi.herokuapp.com/
+
 ## Installation Guide
 1. Clone the repository
 2. Open the main directory in shell
