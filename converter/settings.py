@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'tailwind',
     'crispy_forms',
     'crispy_tailwind',
-    'salttohtml',
     'converter',
 ]
 
