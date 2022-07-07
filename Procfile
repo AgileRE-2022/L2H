@@ -1,1 +1,1 @@
-web:gunicorn converter.wsgi
+web: gunicorn dep:app

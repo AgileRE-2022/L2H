@@ -34,22 +34,20 @@ plainText2 = '''
 '''
 
 button1 = '''
-<a href="#">
 <button class="w-[calc(%dpx*14)] my-1 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
   <a href="">
     %s
   </a>
-</button>
-</a>\
+</button>\
 '''
 
 button2 = '''
-<a href="#"><button
+<button
   type="submit"
   class="w-[calc(%dpx*14)] my-1 items-center justify-center h-10 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-yellow-500 hover:bg-yellow-600 focus:shadow-outline focus:outline-none"
 >
   %s
-</button></a>\
+</button>\
 '''
 
 uncheckedRadio1 = '''
@@ -127,7 +125,7 @@ uncheckedBox1 = '''
   <input
     class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
     type="checkbox"
-    name="uncheckedBox1"
+    name="radio1"
     id="%s"
   />
   <label
@@ -197,7 +195,7 @@ inputText1 = '''
   <input
     id="%s"
     type="text"
-    class="w-[calc(%dpx*0+100)] truncate my-1 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
+    class="w-[calc(%dpx*14)] truncate my-1 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
     placeholder="%s"
   >
 </form>\
@@ -208,7 +206,7 @@ inputText2 = '''
   <input
     id="%s"
     type="text"
-    class="w-[calc(%dpx*0+100)] truncate h-10 my-1 transition duration-200 bg-white border border-gray-300 rounded-full shadow-sm appearance-none focus:border-yellow-400 focus:outline-none focus:shadow-outline focus:ring-yellow-500"
+    class="w-[calc(%dpx*14)] truncate h-10 my-1 transition duration-200 bg-white border border-gray-300 rounded-full shadow-sm appearance-none focus:border-yellow-400 focus:outline-none focus:shadow-outline focus:ring-yellow-500"
     placeholder="%s"
     name="name"
   >
