@@ -1,0 +1,97 @@
+{% extends '../index.html' %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="flex max-w-[1024px] row m-auto px-16 pt-40 pb-8">
+  <div class="text-black space-y-6 my-auto">
+    <h2 class="font-extrabold text-4xl">
+      GUI Low Fidelity To GUI High Fidelity
+    </h2>
+
+    <p>
+      Convert your GUI Lofi from script SALT Plant UML to High Fidelity Prototype
+    </p>
+  </div>
+</div>
+
+<div class="flex max-w-[1024px] row m-auto px-16 py-8">
+  <form method="POST" action="" class="w-full">
+    {% csrf_token %}
+
+    <div class="form-salt-code">
+      {{ formSaltCode|crispy }}
+    </div>
+
+    <button class="mt-4 px-16 py-3 rounded-full bg-button font-bold">
+      <input type="submit" name="convert" value="Convert" />
+    </button>
+  </form>
+  <br>
+</div>
+
+<div class="flex w-full max-w-[1024px] row m-auto px-16 py-4">
+  <div class="text-black space-y-6 my-auto">
+    <h2 class="font-extrabold text-4xl">
+      HTML & CSS Template 1 & Template 2
+    </h2>
+
+    <p>
+      These templates are using Tailwind CSS with JIT mode enabled
+    </p>
+  </div>
+</div>
+
+<div class="flex w-full max-w-[1024px] mx-auto mb-20 px-16 py-4 space-x-8">
+  <div class="relative w-1/2 code-area">
+    <button
+      onclick="copyTheme1ToClipboard()"
+      id="button-copy-theme1-to-clipboard"
+      class="absolute top-0 right-0 flex px-2 pt-1 rounded-lg bg-button opacity-40 hover:opacity-100 text-dark"
+    >
+      <img
+        src="{% static 'icons/copy-to-clipboard.svg' %}"
+        alt="copy to clipboard icon"
+        class="h-[28px] my-auto"
+      >
+      Copy
+    </button>
+
+    <!-- <textarea id="html-code-theme1">{% for c in converterResult1 %}{{ c }}{% endfor %}</textarea> -->
+    <textarea id="html-code-theme1" name="converterResult" form="previewform1">{{ converterResult1 }}</textarea>
+
+    <form method="POST" action="/preview1" class="w-full" target="_blank" id="previewform1">
+      {% csrf_token %}
+      <button class="w-full mt-2 py-3 rounded-full bg-button font-bold">
+        <input type="submit" name="preview" value="Preview Template 1" />
+      </button>
+    </form>
+  </div>
+
+  <div class="relative w-1/2 code-area">
+    <button
+      onclick="copyTheme2ToClipboard()"
+      id="button-copy-theme2-to-clipboard"
+      class="absolute top-0 right-0 flex px-2 pt-1 rounded-lg bg-button opacity-40 hover:opacity-100 text-dark"
+    >
+      <img
+        src="{% static 'icons/copy-to-clipboard.svg' %}"
+        alt="copy to clipboard icon"
+        class="h-[28px] my-auto"
+      >
+      Copy
+    </button>
+
+    <!-- <textarea id="html-code-theme2">{% for c in converterResult2 %}{{ c }}{% endfor %}</textarea> -->
+    <textarea id="html-code-theme2" name="converterResult" form="previewform">{{ converterResult2 }}</textarea>
+
+    <form method="POST" action="/preview2" class="w-full" target="_blank" id="previewform">
+      {% csrf_token %}
+      <button class="w-full mt-2 py-3 rounded-full bg-button font-bold">
+        <input type="submit" name="preview" value="Preview Template 2" />
+      </button>
+    </form>
+  </div>
+</div>
+{% endblock %}

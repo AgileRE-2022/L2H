@@ -1,0 +1,36 @@
+{% extends '../index.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="flex max-w-[1024px] h-[640px] row m-auto px-16 pt-24 pb-16">
+	<div class="md:w-1/2 text-black space-y-6 my-auto">
+		<h2 class="font-extrabold text-4xl">
+			Welcome to Lofi2Hifi!
+		</h2>
+
+		<p>
+			Lofi2Hifi is Web aplication that helps developer to generate GUI Low Fidelity from SALT PlantUML scripts to GUI
+			High Fidelity HTML CSS only in a click. We used language processing in order to increase accuration od the result!
+		</p>
+
+		<button class="px-16 py-3 rounded-full bg-button font-bold">
+			<a href="/converter">
+				Try Now
+			</a>
+		</button>
+	</div>
+
+	<div class="md:w-1/2 text-black space-y-2 m-auto items-center text-center">
+		<img src="{% static 'images/homepage-art1.png' %}" class="w-[400px] mx-auto md:mr-0" alt="Ilustration Art">
+
+		<h2 class="font-extrabold text-3xl text-blue">
+			GUI Low Fidelity To
+		</h2>
+
+		<h2 class="font-extrabold text-3xl text-button">
+			GUI High Fidelity
+		</h2>
+	</div>
+</div>
+{% endblock %}
