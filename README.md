@@ -24,7 +24,7 @@ Based on JIT mode enabled, the user can create a GUI such as changing the color 
 
 ## Live Demo
 You can use this application (demo) by accessing our [website](http://salt2html.herokuapp.com/)
-You can try the new version by launching the program in your local server
+or you can try the new version by launching the program in your local server
 
 ## Installation Guide
 1. Clone the repository
