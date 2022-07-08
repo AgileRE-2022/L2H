@@ -5,10 +5,16 @@ import string
 import random
 from html5print import HTMLBeautifier
 
-def toHtmlString(data, containerWidth):
+def toHtmlString1(data, containerWidth):
     htmlString = "\n".join(data) #convert the generated HTML to a string
     prettyHTML = HTMLBeautifier.beautify(htmlString, 4) #beautify the HTML
-    prettyHTML = base%(containerWidth, prettyHTML) #add the base html
+    prettyHTML = base1%(containerWidth, prettyHTML) #add the base html
+    return prettyHTML
+
+def toHtmlString2(data, containerWidth):
+    htmlString = "\n".join(data) #convert the generated HTML to a string
+    prettyHTML = HTMLBeautifier.beautify(htmlString, 4) #beautify the HTML
+    prettyHTML = base2%(containerWidth, prettyHTML) #add the base html
     return prettyHTML
 
 def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
@@ -114,7 +120,6 @@ def toBlankLine(salt, group_id):
     return "",""
 
 functions=[
-    toButton,
     toCheckedRadio,
     toUncheckedRadio,
     toCheckedBox,
@@ -124,4 +129,5 @@ functions=[
     toDivOpen,
     toDivClose,
     toBlankLine,
+    toButton,
 ]

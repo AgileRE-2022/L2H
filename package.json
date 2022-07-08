@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "autoprefixer": "^10.4.7",
+    "debug": "^4.3.4",
+    "minifier": "^0.8.1",
+    "minify": "^9.1.0",
     "postcss": "^8.4.14"
   },
   "scripts": {

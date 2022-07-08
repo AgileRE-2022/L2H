@@ -48,4 +48,4 @@ def preview_page2(request):
 		context = {
 			"converterResult" : result,
 		}
-		return render(request, "./pages/page_preview.html", context)
+		return render(request, "./pages/page_preview2.html", context)

@@ -1,4 +1,4 @@
-base = '''\
+base1 = '''\
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +11,36 @@ base = '''\
   </script>
 </head>
 
-<body>
-  <main class="flex w-screen h-screen">
-    <div class="w-[calc(%dpx*14px)] m-auto p-6 border border-black border-opacity-10 rounded-lg">
+<body style="padding: 24px">
+    <div class="w-[calc(%dpx*14px)] m-auto p-6 border border-black rounded-lg">
+      <h1 style="font-weight: 800; text-align: center">My Article</h1>
+      <br>
+      <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eius aliquam distinctio nisi hic ut. Facere, reprehenderit ullam, eveniet voluptas vero quibusdam necessitatibus at harum velit nihil minus voluptatibus expedita modi? Sint impedit nobis placeat. Quam ab recusandae voluptatem odio animi dolorum soluta explicabo repellat, veritatis velit laudantium impedit non eligendi natus odit, voluptas, at atque voluptatum. Distinctio vero sed obcaecati veritatis aliquam! Totam nemo quo perspiciatis cumque ipsum expedita repellat soluta reiciendis sed doloremque ex omnis, repudiandae itaque non autem incidunt molestias dolorum voluptas maiores a tempore quam dignissimos iure enim! Adipisci laboriosam facilis, itaque at explicabo ad alias.</p>
+      %s
+    </div>
+  </main>
+</body>
+</html>\
+'''
+
+base2 = '''\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salt to HTML Preview</title>
+
+  <script src="https://unpkg.com/tailwindcss-jit-cdn">
+  </script>
+</head>
+
+<body style="padding: 24px">
+    <div class="w-[calc(%dpx+360px)] m-auto p-6 border border-black rounded-lg">
+      <h1 style="font-weight: 800; text-align: center">My Questionaire</h1>
+      <br>
+      <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eius aliquam distinctio nisi hic ut. Facere, reprehenderit ullam, eveniet voluptas vero quibusdam necessitatibus at harum velit nihil minus voluptatibus expedita modi?</p>
       %s
     </div>
   </main>
@@ -22,13 +49,13 @@ base = '''\
 '''
 
 plainText1 = '''
-<p class="my-1 py-auto text-gray-700">
+<p class="my-1 py-auto text-black-700" style="text-align: justify">
   %s
 </p>\
 '''
 
 plainText2 = '''
-<p class="my-1 py-auto font-medium">
+<p class="my-1 py-auto font-medium" style="text-align: justify">
   %s
 </p>\
 '''

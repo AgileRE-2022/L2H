@@ -46,7 +46,7 @@ def doConvert(salt):
                 result1.append(html1)
                 result2.append(html2)
     
-    return toHtmlString(result1, containerWidth), toHtmlString(result2, containerWidth)
+    return toHtmlString1(result1, containerWidth), toHtmlString2(result2, containerWidth)
 
 def convertSalt2Html(salt, group_id):
     patt = const_PLAIN_TEXT
@@ -140,7 +140,6 @@ patterns=[
 ]
 
 funct=[
-    isButtonSalt,
     isUncheckedRadioSalt,
     isCheckedRadioSalt,
     isUncheckedBoxSalt,
@@ -150,6 +149,7 @@ funct=[
     isOpenBracketSalt,
     isCloseBracketSalt,
     isNewLineSalt,
+    isButtonSalt,
 ]
 
 def isSamePattern(last_pattern, salt):
